@@ -32,40 +32,46 @@ The regex expression used to match URL's...
 
 There are a number of quantifiers used in this regular expression. 
 Qunatifiers can be used in a similar way of and/or gates. They can allow the programer to write a regex that can specify: 
-* - zero-or-more
-+ - one-or-more
-? - zero-or-one
-{4} - a specific quantity such as four 
-{4,} - more than four 
-{1,4} - or between one and three 
+- "* - zero-or-more"
+- "+ - one-or-more"
+- "? - zero-or-one"
+- "{4} - a specific quantity such as four"
+- "{4,} - more than four"
+- "{1,4} - or between one and three"
 
 ![Quantifiers](./Media/quantifiers.png)
 
 
-
 ### Grouping Constructs
 
+By grouping elements within round brackets we can act on them with quantifiers, refer back to them later or specifiy the preceeding or suceeding values.
+
+![Grouping Constructs](./Media/grouping.png)
 
 
 ### Bracket Expressions
 
+Bracket expressions are any set of items wraps by brackets. Round brackets create [Grouping Constructs](#grouping-constructs) square brackets create [Character Classes](#character-classes) and curly brackets can act as [Quantifiers](#quantifiers).
 
+![Bracket Expressions](./Media/bracket%20expressions.png)
 
 ### Character Classes
 
+Character classes enable us to select a range of values. They use square brackets to capture these values
 
+![Character Classes](./Media/charater%20class.png)
 
 ### The OR Operator
 
-
+![](./Media/quantifiers.png)
 
 ### Flags
 
-
+![](./Media/quantifiers.png)
 
 ### Character Escapes
 
-
+![](./Media/quantifiers.png)
 
 ## Author
 
