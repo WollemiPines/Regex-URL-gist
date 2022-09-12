@@ -82,7 +82,7 @@ Such as case sensitivity (/i) or if the item being seached has multiple lines (/
 <br>
 <br>
 There are no flags on this regex however if it were bing used to search a document for URL's the /m (multiline) and /g (global), should be included.<br>
-/n ![Flags](./Media/flags.png)
+![Flags](./Media/flags.png)
 
 ### Character Escapes
 
