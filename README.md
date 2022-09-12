@@ -57,21 +57,37 @@ Bracket expressions are any set of items wraps by brackets. Round brackets creat
 
 ### Character Classes
 
-Character classes enable us to select a range of values. They use square brackets to capture these values
+Character classes enable us to select a range of values. 
+They use square brackets to capture these values
+There is also the option to speficiy characters classes with simplier notation.
+- \d matches a single digit
+- \w matches a single word character
+- \s matches a whitespace
+
+The URL regex uses \d and \w
 
 ![Character Classes](./Media/charater%20class.png)
 
 ### The OR Operator
 
-![](./Media/quantifiers.png)
+OR opperators in Regex allow for multiple options to be considered valid. 
+For example [color|colour] 
+This URL regex does not use an OR opperator. If someone wanted to specifiy only URL's from particular addesses, it would be reasonable to use it as follows:
+[com|gov|edu|ru|nu]
 
 ### Flags
 
-![](./Media/quantifiers.png)
+flags allow us to sepcifiy a number of things regarding how we treat the contents that are being searched.
+Such as case sensitivity (/i) or if the item being seached has multiple lines (/m).
+
+There are no flags on this regex however if it were bing used to search a document for URL's the /m (multiline) and /g (global), should be included
+![Flags](./Media/flags.png)
 
 ### Character Escapes
 
-![](./Media/quantifiers.png)
+
+
+![](./Media/.png)
 
 ## Author
 
