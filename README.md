@@ -71,9 +71,9 @@ The URL regex uses \d and \w
 ### The OR Operator
 
 OR opperators in Regex allow for multiple options to be considered valid. 
-For example [color|colour] 
+For example [color | colour] 
 This URL regex does not use an OR opperator. If someone wanted to specifiy only URL's from particular addesses, it would be reasonable to use it as follows:
-[com|gov|edu|ru|nu]
+[com | gov | edu | ru | nu]
 
 ### Flags
 
@@ -87,7 +87,7 @@ There are no flags on this regex however if it were bing used to search a docume
 
 
 
-![](./Media/.png)
+![Character Escapes](./Media/charater%20escapes.png.png)
 
 ## Author
 
