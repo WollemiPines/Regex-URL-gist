@@ -80,14 +80,14 @@ This URL regex does not use an OR opperator. If someone wanted to specifiy only 
 flags allow us to sepcifiy a number of things regarding how we treat the contents that are being searched.
 Such as case sensitivity (/i) or if the item being seached has multiple lines (/m).
 
-There are no flags on this regex however if it were bing used to search a document for URL's the /m (multiline) and /g (global), should be included
-![Flags](./Media/flags.png)
+There are no flags on this regex however if it were bing used to search a document for URL's the /m (multiline) and /g (global), should be included.
+/n ![Flags](./Media/flags.png)
 
 ### Character Escapes
 
+Native charaters such as . / * | } ] ) ? to list a few cannot be used literaly unless escaped. Placing a forward slash ( \ ) infront fo the character allows it to be used litteraly.
 
-
-![Character Escapes](./Media/charater%20escapes.png.png)
+![Character Escapes](./Media/charater%20escapes.png)
 
 ## Author
 
